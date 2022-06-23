@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { DayLayout } from './DayLayout'
+import { DayLayout } from './DayLayout/DayLayout'
 
 export const Calendar = ({data, timeType, currentDate}) => {
 

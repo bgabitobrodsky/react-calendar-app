@@ -20,12 +20,26 @@ body{
   width: 60px;
 }
 
-.calendar{
+.nothing-today-sign{
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 8px 16px 0 rgb(0 0 0 / 10%);
+  color:#444;
+  margin-top: 15px;
+  padding: 15px;
+  text-align: center;
+}
+
+.events, .tasks{
   background: #ffffff;
   border-radius: 6px;
   box-shadow: 0 8px 16px 0 rgb(0 0 0 / 10%);
   margin-top: 15px;
   padding: 0;
+}
+
+.events{
+  margin-top: 15px;
 }
 
 .time-filters{
@@ -36,12 +50,8 @@ body{
   font-size: 1.2rem;
 }
 
-.day-layout{
-
-}
-
 .section-title{
-  padding: 15px 10px 5px;
+  padding: 10px;
   margin: 0;
 }
 
@@ -55,10 +65,7 @@ body{
 .task-buttons button{
   width: 35px;
   height: 35px;
-}
-
-.events{
-  margin-top: 10px;
+  margin-left: 5px;
 }
 
 .event:first-of-type, .task:first-of-type{
